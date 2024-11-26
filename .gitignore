@@ -1,0 +1,38 @@
+# Environnements virtuels
+venv/
+.env/
+
+# Configurations locales
+*.pyc
+*.pyo
+__pycache__/
+instance/
+
+# Fichiers de configuration sensibles
+*.env
+*.cfg
+*.ini
+
+# Caches Flask
+.cache/
+.flaskenv
+
+# Déploiement
+*.log
+*.pid
+*.swp
+
+# Bases de données
+*.db
+*.sqlite3
+
+# Autres outils Python
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# IDE spécifiques
+.vscode/
+.idea/
+*.iml
